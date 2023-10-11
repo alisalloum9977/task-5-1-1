@@ -1,0 +1,68 @@
+/*start global rules*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*end global rules*/
+
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+}
+
+.container {
+  background-color: whitesmoke;
+  max-width: 310px;
+  width: 100%;
+  padding: 10px 20px 20px;
+  border-radius: 13px;
+}
+
+.container input {
+  border: 3px solid #13032c;
+  border-radius: 13PX;
+}
+
+.inner-container {
+  height: 85px;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #13032c;
+  pointer-events: none;
+}
+
+.buttons {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.buttons button {
+  padding: 9px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #13032c;
+  color: white;
+}
+
+
+.buttons .num {
+  background-color: white;
+  color: #13032c;
+}
+
+.buttons .num:active {
+  background-color: #13032c;
+  color: white;
+}
